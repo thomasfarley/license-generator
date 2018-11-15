@@ -1,9 +1,0 @@
-D:\Source\LicenseGenerator\LicenseGenerator\bin\Debug\netstandard2.0\LicenseGenerator.deps.json
-D:\Source\LicenseGenerator\LicenseGenerator\bin\Debug\netstandard2.0\LicenseGenerator.dll
-D:\Source\LicenseGenerator\LicenseGenerator\bin\Debug\netstandard2.0\LicenseGenerator.pdb
-D:\Source\LicenseGenerator\LicenseGenerator\obj\Debug\netstandard2.0\LicenseGenerator.csproj.CoreCompileInputs.cache
-D:\Source\LicenseGenerator\LicenseGenerator\obj\Debug\netstandard2.0\LicenseGenerator.AssemblyInfoInputs.cache
-D:\Source\LicenseGenerator\LicenseGenerator\obj\Debug\netstandard2.0\LicenseGenerator.AssemblyInfo.cs
-D:\Source\LicenseGenerator\LicenseGenerator\obj\Debug\netstandard2.0\LicenseGenerator.dll
-D:\Source\LicenseGenerator\LicenseGenerator\obj\Debug\netstandard2.0\LicenseGenerator.pdb
-D:\Source\LicenseGenerator\LicenseGenerator\obj\Debug\netstandard2.0\LicenseGenerator.csprojAssemblyReference.cache
