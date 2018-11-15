@@ -48,7 +48,7 @@ namespace Indygo.License
             }
             return true;
         }
-        public object Generate(int count, FileFormat saveFormat = FileFormat.CSV, string fileDirectory, char delimeter = ',')
+        public object Generate(int count, string fileDirectory, FileFormat saveFormat = FileFormat.CSV, char delimeter = ',')
         {
             //TODO validate directory
             if (count <= 0) { throw new IllegalArgumentException("Parameter 'count' must contain an integer greater than 0."); }
