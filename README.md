@@ -1,5 +1,5 @@
 # license-generator
-A class library for randomly generating license codes. .NET Standard 2.0
+A class library for randomly generating license codes. .NET Standard
 
 ## Formatting
 
