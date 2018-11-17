@@ -29,6 +29,7 @@ List<string> licenses = gen.Generate(int count)
 // Save your keys
 gen.Save(List<string> licenses, string filePath, FileFormat format = FileFormat.CSV, string customDelimeter = ",");
 // The customDelimeter parameter is for when you choose a CustomDelimeter or CustomDelimeterNewline file format.
+// The file path parameter needs to include the full directory, file name and file type.
 ```
 
 Some features are not implemented at this time. This is a work in progress.
