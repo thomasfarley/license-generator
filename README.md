@@ -21,13 +21,14 @@ var gen = new Generator();
 gen.SetFormat("CCCCC-NNNNN-CCCCC-CcCcC");
 
 // You can choose choose what file format you want to save your licenses in. By default, CSV will be chosen.
-public enum FileFormat { CSV, NewLine, Delimeter, JSON, Excel }
-// You can specify a custom delimeter as well. Choose Delimeter as your FileFormat and there will be an 
-// additional parameter in the method called delimeter that is set to a comma by default.
+public enum FileFormat { CSV, NewLine, CustomDelimeter, CustomDelimeterNewline, JSON, Excel }
 
 // Generate keys
-gen.Generate(int count, FileFormat saveFormat, string fileDirectory);
-// Returns: List<string>
+List<string> licenses = gen.Generate(int count)
+
+// Save your keys
+gen.Save(List<string> licenses, string filePath, FileFormat format = FileFormat.CSV, string customDelimeter = ",");
+// The customDelimeter parameter is for when you choose a CustomDelimeter or CustomDelimeterNewline file format.
 ```
 
 Some features are not implemented at this time. This is a work in progress.
